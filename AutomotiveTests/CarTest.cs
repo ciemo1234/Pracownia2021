@@ -13,6 +13,7 @@ namespace AutomotiveTests
 
             car.Should().NotBeNull();
             car.Make.Should().Be("Ford Focus");
+            car.Color.Should().Be("Red");
         }
     }
 }

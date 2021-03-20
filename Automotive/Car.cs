@@ -18,5 +18,7 @@ namespace Automotive
         }
 
         public string Make => _make;
+
+        public string Color => _color;
     }
 }

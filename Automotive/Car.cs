@@ -4,17 +4,19 @@ namespace Automotive
 {
     public class Car
     {
-        private string v1;
-        private string v2;
-        private double v3;
-        private int v4;
+        private string _color;
+        private string _make;
+        private double _fuelConsumption;
+        private int _tankCapacity;
 
-        public Car(string v1, string v2, double v3, int v4)
+        public Car(string color, string make, double fuelConsumption, int tankCapacity)
         {
-            this.v1 = v1;
-            this.v2 = v2;
-            this.v3 = v3;
-            this.v4 = v4;
+            _color = color;
+            _make = make;
+            _fuelConsumption = fuelConsumption;
+            _tankCapacity = tankCapacity;
         }
+
+        public string Make => _make;
     }
 }

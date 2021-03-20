@@ -12,6 +12,7 @@ namespace AutomotiveTests
             var car = new Car("Red", "Ford Focus",5.5, 60);
 
             car.Should().NotBeNull();
+            car.Make.Should().Be("Ford Focus");
         }
     }
 }

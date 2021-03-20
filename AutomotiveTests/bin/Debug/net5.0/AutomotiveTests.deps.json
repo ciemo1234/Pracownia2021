@@ -11,7 +11,8 @@
           "Automotive": "1.0.0",
           "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.9.1",
-          "xunit": "2.4.1"
+          "xunit": "2.4.1",
+          "xunit.runner.visualstudio": "2.4.3"
         },
         "runtime": {
           "AutomotiveTests.dll": {}
@@ -1125,6 +1126,7 @@
           }
         }
       },
+      "xunit.runner.visualstudio/2.4.3": {},
       "Automotive/1.0.0": {
         "runtime": {
           "Automotive.dll": {}
@@ -1788,6 +1790,13 @@
       "sha512": "sha512-7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
       "path": "xunit.extensibility.execution/2.4.1",
       "hashPath": "xunit.extensibility.execution.2.4.1.nupkg.sha512"
+    },
+    "xunit.runner.visualstudio/2.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
+      "path": "xunit.runner.visualstudio/2.4.3",
+      "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
     "Automotive/1.0.0": {
       "type": "project",

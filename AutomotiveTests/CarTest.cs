@@ -14,6 +14,7 @@ namespace AutomotiveTests
             car.Should().NotBeNull();
             car.Make.Should().Be("Ford Focus");
             car.Color.Should().Be("Red");
+            car.FuelConsumption.Should().Be(5.5);
         }
     }
 }

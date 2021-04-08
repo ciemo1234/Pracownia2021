@@ -15,6 +15,17 @@ namespace AutomotiveTests
             car.Make.Should().Be("Ford Focus");
             car.Color.Should().Be("Red");
             car.FuelConsumption.Should().Be(5.5);
+            car.TankCapacity.Should().Be(60);
+
         }
+        public void Tankuj() 
+        { 
+
+        }
+
+
+        
+
+
     }
 }

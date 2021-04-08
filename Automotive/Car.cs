@@ -22,5 +22,9 @@ namespace Automotive
         public string Color => _color;
 
         public double FuelConsumption => _fuelConsumption;
+
+        public int TankCapacity => _tankCapacity;
+
+
     }
 }
